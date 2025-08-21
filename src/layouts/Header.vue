@@ -12,7 +12,6 @@ const closeMenu = (e) => {
     show.value = false;
   }
 };
-
 onMounted(() => {
   document.addEventListener("click", closeMenu);
 });
